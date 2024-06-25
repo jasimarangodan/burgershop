@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Burger Shop</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <header>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+        <style>
+            /* Navigation Styles */
+            nav ul {
+                list-style-type: none;
+                display: flex;
+                justify-content: space-around;
+                padding: 10px 0;
+                background-color: #333;
+            }
+    
+            nav ul li {
+                margin-right: 20px;
+            }
+    
+            nav ul li a {
+                color: white;
+                text-decoration: none;
+                transition: color 0.3s ease;
+            }
+    
+            nav ul li a:hover {
+                color: #FF8C00; /* Orange color for hover effect */
+            }
+    
+            /* Logo Styles */
+            .logo img {
+                width: 100px;
+                height: auto;
+                border-radius: 50%;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+            }
+    
+            .logo img:hover {
+                transform: rotate(360deg); /* Rotate the logo on hover */
+                box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+            }
+    
+            /* CTA Button Styles */
+            .cta .btn {
+                background-color: #FF8C00; /* Orange color for button */
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                text-decoration: none;
+                transition: background-color 0.3s ease;
+            }
+    
+            .cta .btn:hover {
+                background-color: #FFA500; /* Lighter orange on hover */
+            }
+        </style>
+    
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    
+        <div class="box"></div>
+        <div class="logo">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/021/665/613/small/beef-burger-isolated-png.png">
+        </div>
+       
+        <div class="cta">
+            <a href="#order" class="btn">Order Online</a>
+        </div>
+    </header>
+    
+<main>
+    
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Savor Every Bite</h1>
+                <p>The Best Burgers in Town!</p>
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/021/665/613/small/beef-burger-isolated-png.png">
+                
+                <a href="#menu" class="btn">View Menu</a>
+            </div>
+        </section>
+    </div>
+    <div class="container" style="color: white;">
+    <div class="section-header">
+        <h2 style="font-size: 30px;" data-aos="fade-up"></h2>
+    </div>
+</div>
+
+        <style>
+    .card {
+        transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+        transform: scale(1.05);
+    }
+
+    .card img {
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .card-body {
+        padding: 20px;
+    }
+
+    .card-title {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+
+    .card-text {
+        font-size: 1rem;
+        margin-bottom: 15px;
+    }
+
+    .btn {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 8px 16px;
+        text-transform: uppercase;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+        background-color: #0056b3;
+    }
+</style>
+
+<div class="row justify-content-center" data-aos="fade-up">
+    <div class="col-md-3">
+        <div class="card shadow-lg">
+            <img src="https://png.pngtree.com/png-clipart/20230414/original/pngtree-isolated-burger-on-transparent-background-png-image_9055072.png" class="card-img-top" alt="My Image">
+            <div class="card-body">
+                <h5 class="card-title">Chicken</h5>
+                <p class="card-text">Chicken burger with soya pepper.<br>Contact: +91 0000 0000 00</p>
+                <a href="#contact" class="btn btn-primary">Contact Us</a>
+            </div>
+        </div>
+
+        
+    </div>
+    <!-- Add more card elements with similar structure -->
+</div>
+
+        <br>
+        <br>
+        <br>
+        <style>
+            /* Keyframes for the fade-in effect */
+            @keyframes fadeIn {
+                from {
+                    opacity: 0;
+                    transform: translateY(20px);
+                }
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+        
+            /* Apply the animation to the menu-showcase section */
+            .menu-showcase {
+                animation: fadeIn 0.5s ease forwards;
+            }
+        
+            /* Other styles for menu items */
+            .menu-item {
+                background-color: white;
+                border-radius: 10px;
+                padding: 20px;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            }
+        
+            .menu-item img {
+                max-width: 100%;
+                height: auto;
+                border-radius: 5px;
+                margin-bottom: 10px;
+            }
+        
+            .menu-item h5 {
+                font-size: 1.2rem;
+                margin-bottom: 5px;
+            }
+        
+            .menu-item p {
+                font-size: 0.9rem;
+                margin-bottom: 10px;
+            }
+        
+            .menu-item span {
+                font-weight: bold;
+                font-size: 1.1rem;
+                color: #FF8C00;
+            }
+        
+            .container {
+                max-width: 1200px; /* Adjust as needed */
+                margin: 0 auto;
+            }
+        </style>
+        
+        <section class="menu-showcase" style="color: rgb(0, 0, 0);">
+            <div class="container">
+                <h3>SPECIAL OFFERS</h3>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="menu-item">
+                            <img src="https://img.pikbest.com/origin/09/19/19/91rpIkbEsTnXY.png!sw800" height="222px" width="204px">
+                            <h5>Classic Burger</h5>
+                            <p>A delicious classic burger with all the trimmings.</p>
+                            <span>$10.99</span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="menu-item">
+                            <img src="https://img.pikbest.com/origin/09/19/19/91rpIkbEsTnXY.png!sw800" height="222px" width="204px">
+                            <h5>Spicy Chicken Burger</h5>
+                            <p>For those who love a kick of spice in their burger.</p>
+                            <span>$12.99</span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="menu-item">
+                            <img src="https://img.pikbest.com/origin/09/19/19/91rpIkbEsTnXY.png!sw800" height="222px" width="204px">
+                            <h5>Veggie Burger</h5>
+                            <p>A flavorful veggie burger with fresh veggies.</p>
+                            <span>$9.99</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        <br>
+        <br>
+        <br>
+        <section class="gallery" style="color: white;">
+            <div class="container">
+                <h2>Gallery</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="gallery-item">
+                            <img src="https://thumbs.dreamstime.com/b/background-grill-burger-food-variety-illustration-delicious-tasty-barbecue-cookout-sizzle-char-298911922.jpg" height="222px" width="380px">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="gallery-item">
+                            <img src="https://png.pngtree.com/thumb_back/fh260/background/20230518/pngtree-very-large-hamburger-on-a-wooden-table-with-pickles-image_2581802.jpg" height="222px" width="380px">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="gallery-item">
+                            <img src="https://t3.ftcdn.net/jpg/06/04/14/62/360_F_604146258_0LeBHxkZ9TR4tLs9npsZNbiufSCwlS3B.jpg" height="222px" width="380px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    <br>
+    <br>
+    <br>
+    <div class="container" style="color: white;">
+        <div class="section-div">
+            <h2 style="font-size: 30px;" data-aos="fade-up">OUR OUTLETS</h2>
+        </div>
+    </div>
+    
+        <div class="row justify-content-center" data-aos="fade-up">
+          <div class="col-md-3">
+            <div class="card shadow-lg" style="width: 18rem;border:none;border-radius:10px;">
+
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7Q8s6n_U1jTYRE_-Jb4qdwHnqp6vQhpka-lis7y8NTQ&s" class="card-img-top" alt="My Image" style="width:15rem;padding-left:5vh;padding-top:5vh;">
+
+              <div class="card-body">
+                <h5 class="card-title">Perinthalmanna</h5>
+                <p class="card-text" style="font-weight:normal;">best zinger burger in town<br>Contact:+91 0000 0000 00</p>
+                <a href="#contact" class="btn btn-primary">Contatc Us</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 ">
+            <div class="card shadow-lg " style="width: 18rem;border:none;border-radius:10px;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7Q8s6n_U1jTYRE_-Jb4qdwHnqp6vQhpka-lis7y8NTQ&s" class="card-img-top" alt="My Image" style="width:15rem;padding-left:5vh;padding-top:5vh;">
+
+              <div class="card-body">
+                <h5 class="card-title">Mannarkad</h5>
+                <p class="card-text" style="font-weight:normal;">best zinger burger in town.<br>Contact:+91 0000 0000 00</p>
+                <a href="#contact" class="btn btn-primary">Contatc Us</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card shadow-lg" style="width: 18rem;border:none;border-radius:10px;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7Q8s6n_U1jTYRE_-Jb4qdwHnqp6vQhpka-lis7y8NTQ&s" class="card-img-top" alt="My Image" style="width:15rem;padding-left:5vh;padding-top:5vh;">
+
+              <div class="card-body">
+                <h5 class="card-title">Kochi</h5>
+                <p class="card-text" style="font-weight:normal;">best zinger burger in town.<br>Contact:+91 0000 0000 00</p>
+                <a href="#contact" class="btn btn-primary">Contatc Us</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 ">
+            <div class="card shadow-lg" style="width: 18rem;border:none;border-radius:10px;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7Q8s6n_U1jTYRE_-Jb4qdwHnqp6vQhpka-lis7y8NTQ&s" class="card-img-top" alt="My Image" style="width:15rem;padding-left:5vh;padding-top:5vh;">
+
+              <div class="card-body">
+                <h5 class="card-title">Calicut</h5>
+                <p class="card-text" style="font-weight:normal;">best zinger burger in town.<br>Contact:+91 0000 0000 00</p>
+                <a href="#contact" class="btn btn-primary">Contatc Us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <section class="about-us" style="color: white;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="https://img.freepik.com/premium-photo/smiling-cafe-owner-removing-burger-from-display-cabinet-coffee-shop_662214-257357.jpg" height="350px" width="350px">
+                </div>
+                <div class="col-md-6">
+                    <h2>About Us</h2>
+                    <p>Welcome to Burger Shop, where we serve the most delicious burgers in town!</p>
+                    <p>Our mission is to provide high-quality, fresh ingredients in every burger we make. We believe in creating mouth-watering flavors that leave our customers craving for more.</p>
+                    <p>Visit us today and experience the joy of savoring every bite!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <section class="testimonials" style="color: white;">
+        <div class="container">
+            <h2>Customer Reviews</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="testimonial">
+                        <img src="https://t4.ftcdn.net/jpg/01/05/31/33/360_F_105313352_hTQ4bjLIzieIducbRR0SifUkvKW8EJRl.jpg" height="200px" width="150px">
+                        <p>"The burgers here are amazing! Great taste and quality ingredients. Highly recommended!"</p>
+                        <span>- John Doe</span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="testimonial">
+                        <img src="https://t3.ftcdn.net/jpg/01/02/95/20/360_F_102952057_2R01vWUYGKO8hWDtNhSzUtam08EdrYxk.jpg" height="200px" width="150px">
+                        <p>"Best burger joint in town! Friendly staff and excellent service. Will definitely come back!"</p>
+                        <span>- Jane Smith</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+
+    
+    <section class="contact-info">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6" style="color: white;">
+                    <h2>Contact Information</h2>
+                    <p><strong>Address:</strong> 123 Burger Street, City, Country</p>
+                    <p><strong>Phone:</strong> +1 234 567 890</p>
+                    <p><strong>Email:</strong> info@burgershop.com</p>
+                    <p><strong>Opening Hours:</strong></p>
+                    <ul>
+                        <li>Monday-Friday: 10:00 AM - 8:00 PM</li>
+                        <li>Saturday-Sunday: 11:00 AM - 9:00 PM</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="map">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12" style="color: white;">
+                    <h2>Location</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.734021400137!2d-0.12623648452455765!3d51.5001520990903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604ce6f71079d%3A0x4a0dc65e80e7d37f!2sBig%20Ben!5e0!3m2!1sen!2suk!4v1645021951752!5m2!1sen!2suk" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    
+    >
+    
+    </main>
+<footer>
+    <!-- Footer content goes here -->
+</footer>
+</body>
+</html>
